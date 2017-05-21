@@ -92,7 +92,7 @@
             try
             {
                 LottoListResults dbl = null;
-                string fileDB = ".\\Results.txt";
+                string fileDB = ".\\Data.txt";
 
                 if (CreateDatabase(fileDB, out dbl))
                 {
